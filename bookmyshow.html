@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyShow Clone</title>
+    <link rel="stylesheet" href="Bstyle.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">book<span class="highlight">my</span>show</div>
+            <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities">
+            <div class="location">Bengaluru</div>
+            <button class="sign-in">Sign in</button>
+        </div>
+        <nav>
+            <ul>
+                <li>Movies</li>
+                <li>Stream</li>
+                <li>Events</li>
+                <li>Plays</li>
+                <li>Sports</li>
+                <li>Activities</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Banner Section -->
+        <section class="banner">
+            <div class="banner-container">
+                <img src="banner1.jpg" alt="Banner 1" class="banner-img active">
+                <img src="banner2.jpg" alt="Banner 2" class="banner-img">
+                <img src="banner3.jpg" alt="Banner 3" class="banner-img">
+                <img src="banner4.jpg" alt="Banner 4" class="banner-img">
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </section>
+
+        <!-- Recommended Movies Section -->
+        <section class="recommended">
+            <h2>Recommended Movies</h2>
+            <div class="movies-container">
+                <div class="movie-card">
+                    <div class="promoted-tag">PROMOTED</div>
+                    <div class="movie-img" style="background-image: url('images/movie1.jpg');"></div>
+                    <div class="rating">6/10 9.9K Votes</div>
+                    <h3>Martin</h3>
+                    <p>Action/Drama/Thriller</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-img" style="background-image: url('images/movie2.jpg');"></div>
+                    <div class="rating">7.8/10 95.3K Votes</div>
+                    <h3>Vettaiyan</h3>
+                    <p>Action/Drama</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-img" style="background-image: url('images/movie3.jpg');"></div>
+                    <div class="rating">9.5/10 840 Votes</div>
+                    <h3>The Wild Robot</h3>
+                    <p>Adventure/Animation/Family</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-img" style="background-image: url('images/movie4.jpg');"></div>
+                    <div class="rating">163.4K Likes</div>
+                    <h3>Venom: The Last Dance</h3>
+                    <p>Action/Adventure/Sci-Fi</p>
+                </div>
+                <div class="movie-card">
+                    <div class="movie-img" style="background-image: url('images/movie5.jpg');"></div>
+                    <div class="rating">7.9/10 5.9K Votes</div>
+                    <h3>Bougainvillea</h3>
+                    <p>Crime/Thriller</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
